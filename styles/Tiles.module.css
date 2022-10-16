@@ -1,7 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  column-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
 .box {
   width: 280px;
   background-color: rgb(0, 149, 255);
   margin: 8px;
   margin-left: 16px;
   padding: 16px;
+  border-radius: 8px;
+  color: white;
+
+  text-align: center;
 }
