@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import CategoryTile from "../components/tiles";
 import Header from "../components/header";
 import OverView from "../components/overView";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <OverView />
       <CategoryTile />
+      <Footer />
     </div>
   );
 }
