@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "../styles/Header.module.css";
 
-const header = () => {
+const Header = () => {
   return (
-    <div>header</div>
-  )
-}
+    <div>
+      <h1 className={styles.head}>LEC Hacks</h1>
+    </div>
+  );
+};
 
-export default header
+export default Header;
