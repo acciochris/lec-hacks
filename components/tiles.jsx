@@ -1,4 +1,4 @@
-const CategoryTitle = () => {
+const CategoryTile = () => {
   return <div>Hi</div>;
 };
 
