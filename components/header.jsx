@@ -6,8 +6,8 @@ const Header = () => {
     <div className={styles.HeaderContainer}>
       <div className={styles.center}>
         <h1 className={styles.head}>LEC Hacks</h1>
-        <a className={styles.subheading} href="google.com">
-          March 20-21, 2021
+        <a className={styles.subheading} href="https://www.google.com">
+          Sign Up Here
         </a>
       </div>
     </div>
