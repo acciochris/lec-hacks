@@ -11,3 +11,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #ffff;
 }
+
+x {
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
