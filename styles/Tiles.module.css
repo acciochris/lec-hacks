@@ -15,12 +15,32 @@
 }
 .box {
   width: 280px;
+  height: 18px;
   background-color: rgb(0, 149, 255);
   margin: 8px;
   margin-left: 16px;
   padding: 16px;
   border-radius: 8px;
   color: white;
-
   text-align: center;
+  transition: 0.3s;
+}
+
+.boxOther {
+  width: 280px;
+  height: 18px;
+  background-color: rgb(0, 149, 255);
+  margin: 8px;
+  margin-left: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.box:hover {
+  width: 280px;
+  height: 280px;
+  color: white;
 }
