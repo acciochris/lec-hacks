@@ -1,7 +1,18 @@
+.full {
+  background-color: #6cafea;
+  padding: 16px;
+  min-height: 100vh;
+  color: white;
+  transition: 1s;
+}
+
+.margin {
+  margin-top: 32vh;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
-
   justify-content: center;
 }
 
@@ -28,7 +39,7 @@
 .box {
   width: 350px;
   height: 18px;
-  background-color: rgb(0, 149, 255);
+  background-color: #fcb07e;
   margin: 8px;
   margin-left: 16px;
   padding: 16px;
@@ -38,31 +49,54 @@
   transition: 0.75s;
 }
 
+.box p {
+  height: 0;
+  color: #6cafea00;
+  overflow: hidden;
+  transition: 1s;
+}
+
 .boxOther {
   width: 350px;
   height: 18px;
-  background-color: rgb(0, 149, 255);
   padding: 16px;
   border-radius: 8px;
   color: white;
   text-align: center;
   transition: 0.75s;
-  position: absolute;
+  position: relative;
   z-index: 99;
   margin: 0 auto;
   margin-top: 24px;
   left: 0;
   right: 0;
   padding: 20px;
-  background-color: rgb(0, 149, 255);
+  background-color: #fcb07e;
+}
+
+.boxOther p {
+  height: 0;
+  color: #6cafea00;
+  overflow: hidden;
+  transition: 1s;
 }
 
 .box:hover {
+  height: 248px;
+  color: white;
+}
+
+.box:hover p {
   height: 240px;
   color: white;
 }
 
 .boxOther:hover {
   height: 240px;
+  color: white;
+}
+
+.boxOther:hover p {
+  height: 248px;
   color: white;
 }

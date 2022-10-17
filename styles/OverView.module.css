@@ -1,7 +1,13 @@
+.full {
+  background-color: #fcb07e;
+  min-height: 100vh;
+  padding: 40px;
+  color: black;
+}
+
 .container {
-  margin: 96px;
-  margin-top: 48px;
-  margin-bottom: 48px;
+  /* margin-top: 48px; */
+  margin-top: 32vh;
 }
 
 .center {

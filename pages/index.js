@@ -5,13 +5,15 @@ import CategoryTile from "../components/tiles";
 import Header from "../components/header";
 import OverView from "../components/overView";
 import Footer from "../components/footer";
+import Faqs from "../components/faq";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <OverView />
+      <Header id="sec-1" />
+      <OverView id="sec-2" />
       <CategoryTile />
+      <Faqs />
       <Footer />
     </div>
   );

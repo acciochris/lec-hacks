@@ -9,6 +9,9 @@ const Header = () => {
         <a className={styles.subheading} href="https://www.google.com">
           Sign Up Here
         </a>
+        <button href="#sec-2">
+          <div className={styles.scrolldown}></div>
+        </button>
       </div>
     </div>
   );

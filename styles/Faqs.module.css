@@ -1,0 +1,31 @@
+.full {
+  background-color: #fcb07e;
+  min-height: 100vh;
+  padding: 40px;
+  color: black;
+}
+
+.container {
+  position: relative;
+  z-index: 100;
+}
+
+.center {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.collapsible {
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+.collapsible .content {
+  padding: 6px;
+  background-color: #eeeeee;
+}
+.collapsible .header {
+  background-color: #dddddd;
+  padding: 6px;
+  cursor: pointer;
+}
