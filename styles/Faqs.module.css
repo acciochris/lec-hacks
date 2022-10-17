@@ -1,8 +1,8 @@
 .full {
-  background-color: #fcb07e;
+  background-color: #f3cd46;
   min-height: 100vh;
   padding: 40px;
-  color: black;
+  color: white;
 }
 
 .container {
@@ -25,17 +25,21 @@
 
 .collapsible .content {
   padding: 6px;
-  background-color: #a1e1ff;
+  background-color: #5b74d8;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
-  transition: 1s;
+  transition: 0.5s;
 }
 .collapsible .header {
-  background-color: #6cafea;
+  background-color: #1c49a6;
   padding: 8px;
   cursor: pointer;
   height: 48px;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
-  transition: 1s;
+  transition: 0.5s;
+}
+
+.collapsible .header:hover {
+  background-color: #002376;
 }

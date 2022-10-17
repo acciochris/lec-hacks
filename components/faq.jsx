@@ -1,8 +1,23 @@
 import styles from "../styles/Faqs.module.css";
 import useCollapse from "react-collapsed";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 function Collapsible({ question, response }) {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
+  const [q1, setQ1] = useState(faChevronDown);
+  const [q2, setQ2] = useState(faChevronDown);
+  const [q3, setQ3] = useState(faChevronDown);
+
+  const changeIcon = (theIcon) => {
+    if (theIcon == faChevronDown) {
+      setQ1(faChevronUp);
+    } else {
+      setQ1(faChevronDown);
+    }
+  };
+
   return (
     <div className={styles.collapsible}>
       <div className={styles.header} {...getToggleProps()}>

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Header.module.css";
 import Arrow from "./arrowDown";
 
-const Header = () => {
+const Header = ({ func }) => {
   return (
     <div className={styles.HeaderContainer}>
       <div className={styles.center}>
@@ -12,7 +12,6 @@ const Header = () => {
         </a>
         {/* <button> */}
         {/* </button> */}
-        <Arrow />
       </div>
     </div>
   );

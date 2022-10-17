@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Socials.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const footer = () => {
   return (
@@ -11,7 +11,7 @@ const footer = () => {
           <h2>Socials:</h2>
 
           <div className={styles.row}>
-            <FontAwesomeIcon icon={faTwitter} className={styles.icon} />
+            <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
             <p className={styles.text}>@lynbrookengineering</p>
           </div>
           <div className={styles.row}>

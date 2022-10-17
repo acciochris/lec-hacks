@@ -1,13 +1,13 @@
 .HeaderContainer {
   display: flex;
-  background-color: #6cafea;
+  background-color: #1c49a6;
   height: 100vh;
   justify-content: center;
   position: relative;
 }
 
 .head {
-  margin-top: 60%;
+  margin-top: 50%;
   color: white;
   font-size: 150px;
   font-weight: 50;

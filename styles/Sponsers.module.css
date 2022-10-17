@@ -1,5 +1,5 @@
 .full {
-  background-color: #fcb07e;
+  background-color: #f3cd46;
   min-height: 60vh;
   padding: 40px;
   color: black;
@@ -23,7 +23,7 @@
 .SponserBox {
   height: 200px;
   width: 250px;
-  background-color: antiquewhite;
+  background-color: #1c49a6;
   margin: 12vh;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
