@@ -1,6 +1,6 @@
 .full {
   background-color: #1c49a6;
-  height: 12.5vh;
+  min-height: 12.5vh;
 }
 
 .footer {
@@ -28,4 +28,13 @@
 .text {
   margin-left: 8px;
   font-size: 32px;
+}
+
+.center {
+  margin-left: 40vh;
+  margin-top: 30px;
+}
+
+.footerText {
+  font-size: 7px;
 }

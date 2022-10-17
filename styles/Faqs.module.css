@@ -1,12 +1,12 @@
 .full {
   background-color: #f3cd46;
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 40px;
   color: white;
 }
 
 .container {
-  margin-top: 32vh;
+  margin-top: 16vh;
   position: relative;
   z-index: 100;
 }

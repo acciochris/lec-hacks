@@ -1,6 +1,6 @@
 .full {
   background-color: #1c49a6;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 40px;
   color: black;
   color: white;
@@ -8,11 +8,12 @@
 
 .container {
   margin: 96px;
-  margin-top: 32vh;
+  margin-top: 16vh;
 }
 
 .center {
   text-align: center;
+  margin: auto;
 }
 
 .calendar {

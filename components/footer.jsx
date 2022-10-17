@@ -18,6 +18,12 @@ const footer = () => {
               <p className={styles.text}>lynbrookengineers@gmail.com</p>
             </div>
           </div>
+          <div className={styles.center}>
+            <p className={styles.footerText}>
+              Webpage created by Aravindkrishna Ariuvdainmabi and Veerohit
+              Veeravadivel
+            </p>
+          </div>
         </div>
       </div>
     </div>

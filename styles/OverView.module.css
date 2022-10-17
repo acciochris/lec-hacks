@@ -1,13 +1,13 @@
 .full {
   background-color: #f3cd46;
-  min-height: 100vh;
+  min-height: 54vh;
   padding: 96px;
   color: black;
 }
 
 .container {
   /* margin-top: 48px; */
-  margin-top: 32vh;
+  margin-top: 11vh;
 }
 
 .center {
