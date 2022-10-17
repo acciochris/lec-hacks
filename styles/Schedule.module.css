@@ -1,0 +1,28 @@
+.full {
+  background-color: #6cafea;
+  min-height: 100vh;
+  padding: 40px;
+  color: black;
+}
+
+.container {
+  margin: 96px;
+  margin-top: 32vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.day {
+  width: 350px;
+  background-color: #fcb07e;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 12px;
+}

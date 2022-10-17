@@ -20,22 +20,24 @@ function Collapsible({ question, response }) {
 
 const Faqs = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.center}>
-        <h2>FAQs</h2>
+    <div className={styles.full}>
+      <div className={styles.container}>
+        <div className={styles.center}>
+          <h2>FAQs</h2>
+        </div>
+        <Collapsible
+          question="Do we need prior coding experience?"
+          response="No! This event is open to all students, from experineced to complete rookie. The main objective is to learn"
+        />
+        <Collapsible
+          question="Will we be able to learn anything from this event?"
+          response="Yes, LEC has colloborated with several clubs on campus to offer hackathon participants several workshop relating to the tracks."
+        />
+        <Collapsible
+          question="Are there prizes?"
+          response="Yes, our sponsers have graciosly agreed to offer a variety of licenses and other rewards as prizes for our hackthon."
+        />
       </div>
-      <Collapsible
-        question="Do we need prior coding experience?"
-        response="No! This event is open to all students, from experineced to complete rookie. The main objective is to learn"
-      />
-      <Collapsible
-        question="Will we be able to learn anything from this event?"
-        response="Yes, LEC has colloborated with several clubs on campus to offer hackathon participants several workshop relating to the tracks."
-      />
-      <Collapsible
-        question="Are there prizes?"
-        response="Yes, our sponsers have graciosly agreed to offer a variety of licenses and other rewards as prizes for our hackthon."
-      />
     </div>
   );
 };

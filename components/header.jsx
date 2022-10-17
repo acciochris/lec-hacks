@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Header.module.css";
+import Arrow from "./arrowDown";
 
 const Header = () => {
   return (
@@ -9,9 +10,9 @@ const Header = () => {
         <a className={styles.subheading} href="https://www.google.com">
           Sign Up Here
         </a>
-        <button href="#sec-2">
-          <div className={styles.scrolldown}></div>
-        </button>
+        {/* <button> */}
+        {/* </button> */}
+        <Arrow />
       </div>
     </div>
   );

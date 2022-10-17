@@ -6,6 +6,7 @@ import Header from "../components/header";
 import OverView from "../components/overView";
 import Footer from "../components/footer";
 import Faqs from "../components/faq";
+import Schedule from "../components/schedule";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <OverView id="sec-2" />
       <CategoryTile />
       <Faqs />
+      <Schedule />
       <Footer />
     </div>
   );

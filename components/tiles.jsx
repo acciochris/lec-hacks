@@ -1,4 +1,5 @@
 import styles from "../styles/Tiles.module.css";
+import Arrow from "./arrowDown";
 
 const CategoryTile = () => {
   return (

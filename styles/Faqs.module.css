@@ -6,6 +6,7 @@
 }
 
 .container {
+  margin-top: 32vh;
   position: relative;
   z-index: 100;
 }
@@ -13,19 +14,24 @@
 .center {
   text-align: center;
   margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .collapsible {
   margin-left: 96px;
   margin-right: 96px;
+  margin-bottom: 48px;
 }
 
 .collapsible .content {
   padding: 6px;
-  background-color: #eeeeee;
+  background-color: #a1e1ff;
+  border-radius: 12px;
 }
 .collapsible .header {
-  background-color: #dddddd;
-  padding: 6px;
+  background-color: #6cafea;
+  padding: 8px;
   cursor: pointer;
+  height: 48px;
+  border-radius: 12px;
 }
