@@ -10,6 +10,10 @@
   margin: auto;
 }
 
+.align {
+  margin-left: 3%;
+}
+
 .center {
   margin-top: 8px;
   text-align: center;

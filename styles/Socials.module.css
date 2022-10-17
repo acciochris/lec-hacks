@@ -1,11 +1,12 @@
 .full {
   background-color: #1c49a6;
-  height: 25vh;
+  height: 12.5vh;
 }
 
 .footer {
   padding: 24px;
   color: white;
+  margin-left: 15%;
 }
 
 .row {
@@ -13,10 +14,18 @@
   flex-direction: row;
 }
 
+.rowIcon {
+  display: flex;
+  flex-direction: space-between;
+  margin-left: 100px;
+}
+
 .icon {
   margin-top: 5px;
+  height: 32px;
 }
 
 .text {
   margin-left: 8px;
+  font-size: 32px;
 }
