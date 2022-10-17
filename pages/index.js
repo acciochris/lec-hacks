@@ -7,6 +7,7 @@ import OverView from "../components/overView";
 import Footer from "../components/footer";
 import Faqs from "../components/faq";
 import Schedule from "../components/schedule";
+import Sponsers from "../components/sponsers";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <CategoryTile />
       <Faqs />
       <Schedule />
+      <Sponsers />
       <Footer />
     </div>
   );

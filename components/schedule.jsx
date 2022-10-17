@@ -27,7 +27,7 @@ const Schedule = () => {
           </div>
           <div className={styles.day}>
             <h3>Day 13 - Nov 20th</h3>
-            <p>8:00AM - Final Hour Remainder</p>
+            <p>8:00AM - Final Hour Reminder</p>
             <p>9:00AM - Submissions Due</p>
             <p>5:00pm - Results Released</p>
           </div>

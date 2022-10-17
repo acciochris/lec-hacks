@@ -1,30 +1,30 @@
 .full {
-  background-color: #6cafea;
-  min-height: 100vh;
+  background-color: #fcb07e;
+  min-height: 60vh;
   padding: 40px;
   color: black;
-  color: white;
 }
 
 .container {
-  margin: 96px;
   margin-top: 32vh;
+  margin: auto;
 }
 
 .center {
+  margin-top: 8px;
   text-align: center;
 }
 
-.calendar {
+.row {
   display: flex;
   flex-direction: space-between;
 }
 
-.day {
-  width: 350px;
-  background-color: #fcb07e;
-  margin: 16px;
-  padding: 16px;
+.SponserBox {
+  height: 200px;
+  width: 250px;
+  background-color: antiquewhite;
+  margin: 12vh;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
 }

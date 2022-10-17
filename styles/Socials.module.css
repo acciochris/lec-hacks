@@ -1,4 +1,22 @@
+.full {
+  background-color: #6cafea;
+  height: 25vh;
+}
+
 .footer {
-  background-color: lightgray;
-  height: 200px;
+  padding: 24px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  margin-top: 5px;
+}
+
+.text {
+  margin-left: 8px;
 }

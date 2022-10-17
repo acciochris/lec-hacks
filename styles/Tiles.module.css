@@ -47,6 +47,7 @@
   color: white;
   text-align: center;
   transition: 0.75s;
+  box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
 }
 
 .box p {
@@ -72,6 +73,7 @@
   right: 0;
   padding: 20px;
   background-color: #fcb07e;
+  box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
 }
 
 .boxOther p {
