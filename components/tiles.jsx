@@ -56,7 +56,7 @@ const CategoryTile = () => {
           <p>
             No restrictions! Submit any project you create, you have full
             creative freedom to develop anything of your choosing. Besides being
-            school approrpiate, the only requirement is to be realted to the
+            school appropriate, the only requirement is to be related to the
             theme.
           </p>
         </div>

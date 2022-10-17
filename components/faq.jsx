@@ -41,16 +41,17 @@ const Faqs = () => {
           <h2>FAQs</h2>
         </div>
         <Collapsible
-          question="Do we need prior coding experience? Go..."
-          response="No! This event is open to all students, from experineced to complete rookie. The main objective is to learn"
+          question="Do we need prior coding experience?"
+          response="No! This event is open to all students, from experienced to complete rookie. The main objective is to learn"
         />
         <Collapsible
           question="Will we be able to learn anything from this event?"
-          response="Yes, LEC has colloborated with several clubs on campus to offer hackathon participants several workshop relating to the tracks."
+          response="Yes, LEC has collaborated with several clubs on campus to offer hackathon participants several workshops relating to the tracks."
         />
         <Collapsible
           question="Are there prizes?"
-          response="Yes, our sponsers have graciosly agreed to offer a variety of licenses and other rewards as prizes for our hackthon."
+          response="Yes, our sponsors have graciously agreed to offer a variety of licenses and other rewards as prizes for our hackathon.
+"
         />
       </div>
     </div>

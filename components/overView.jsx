@@ -13,7 +13,7 @@ const overView = () => {
           <x>Mission Statement:</x> LEC Hacks is a virtual hackathon for
           high-school students hosted by Lynbrook Engineering Club of LHS.
           Through learning and competing about a variety of topics we hope to
-          foster an interest in the field of engineering and ecourage people to
+          foster an interest in the field of engineering and encourage people to
           explore the various branches of engineering
         </p>
         <br />
@@ -27,8 +27,8 @@ const overView = () => {
         <br />
         <p>
           <x>Competitor Goal:</x> Complete a project in line with this years
-          themem and following one of our 5 tracks. The main objective is to
-          push yourselves to create a new and unique project while learning new
+          theme and following one of our 5 tracks. The main objective is to push
+          yourselves to create a new and unique project while learning new
           skills.
         </p>
       </div>
