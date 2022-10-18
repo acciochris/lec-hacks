@@ -7,7 +7,9 @@
 }
 
 .container {
-  margin: 96px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
   margin-top: 16vh;
 }
 
@@ -22,7 +24,8 @@
 }
 
 .day {
-  width: 350px;
+  width: 33.33%;
+  float: left;
   background-color: #f3cd46;
   margin: 16px;
   padding: 16px;
