@@ -20,7 +20,7 @@ const footer = () => {
           </div>
           <div className={styles.center}>
             <p className={styles.footerText}>
-              Webpage created by Aravindkrishna Ariuvdainmabi and Veerohit
+              Webpage created by Aravindkrishna Ariuvdainmabi and Veerrohit
               Veeravadivel
             </p>
           </div>
