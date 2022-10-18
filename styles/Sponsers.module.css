@@ -6,12 +6,10 @@
 }
 
 .container {
-  margin-top: 32vh;
-  margin: auto;
-}
-
-.align {
-  margin-left: 3%;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  margin-top: 16vh;
 }
 
 .center {
@@ -26,7 +24,9 @@
 
 .SponserBox {
   height: 200px;
-  width: 250px;
+  width: 33.33%;
+  float: left;
+  height: 300px;
   background-color: #1c49a6;
   margin: 12vh;
   border-radius: 12px;

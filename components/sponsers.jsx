@@ -7,7 +7,7 @@ const Sponsers = () => {
         <div className={styles.center}>
           <h2>Sponsors</h2>
         </div>
-        <div className={styles.align}>
+        <div>
           <div className={styles.row}>
             <div className={styles.SponserBox}></div>
             <div className={styles.SponserBox}></div>
