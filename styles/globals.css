@@ -33,20 +33,23 @@ h1 {
   font-family: "Bebas Neue";
 }
 
-.full {
-  background-color: aqua;
+h2 {
+  font-size: 40px;
+}
+
+full {
 }
 
 nav {
   display: flex;
   padding: 8px;
-  justify-content: flex-start;
-  align-items: flex-end;
   flex-direction: row;
+  align-items: center;
   height: 8vh;
   background-color: #1c49a6;
   position: sticky;
   color: white;
+  margin-bottom: auto;
 }
 nav a {
   font-family: "Roboto Condensed", sans-serif;
@@ -56,8 +59,7 @@ nav a {
 }
 nav a:hover {
   background-color: #f3cd46;
-  padding: 4px;
-  font-size: 20px;
+  padding: 8px;
   border-radius: 20px;
 }
 nav .logo {

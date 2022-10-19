@@ -24,7 +24,7 @@
 }
 
 .collapsible .content {
-  padding: 6px;
+  padding: 20px;
   background-color: #5b74d8;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
@@ -32,9 +32,9 @@
 }
 .collapsible .header {
   background-color: #1c49a6;
-  padding: 8px;
+  padding: 20px;
   cursor: pointer;
-  height: 48px;
+
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
   transition: 0.5s;

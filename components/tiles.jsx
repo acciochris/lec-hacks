@@ -6,12 +6,12 @@ const CategoryTile = () => {
     <div className={styles.full}>
       <div className={styles.margin}>
         <div className={styles.center}>
-          <h2 className={styles.subheading}>Competetive Tracks</h2>
+          <h2>Competetive Tracks</h2>
         </div>
         <div className={styles.container}>
           <div className={styles.grid}>
             <div className={styles.box}>
-              <h2>Machine Learning</h2>
+              <h2 className={styles.subheading}>Machine Learning</h2>
               <br />
               <p>
                 Projects submitted to this track must have at least one machine
@@ -22,7 +22,7 @@ const CategoryTile = () => {
               </p>
             </div>
             <div className={styles.box}>
-              <h2>Web Development</h2>
+              <h2 className={styles.subheading}>Web Development</h2>
               <br />
               <p>
                 Projects submitted to this track must be based on the web. Feel
@@ -31,7 +31,7 @@ const CategoryTile = () => {
               </p>
             </div>
             <div className={styles.box}>
-              <h2>Mobile App Development</h2>
+              <h2 className={styles.subheading}>Mobile App Development</h2>
               <br />
               <p>
                 Projects submitted to this track must be based on a mobile
@@ -40,7 +40,7 @@ const CategoryTile = () => {
               </p>
             </div>
             <div className={styles.box}>
-              <h2>Game Development</h2>
+              <h2 className={styles.subheading}>Game Development</h2>
               <br />
               <p>
                 Develop a game in any game engine of your choosing. Be sure to
@@ -51,7 +51,7 @@ const CategoryTile = () => {
           </div>
         </div>
         <div className={styles.boxOther}>
-          <h2>Overall</h2>
+          <h2 className={styles.subheading}>Overall</h2>
           <br />
           <p>
             No restrictions! Submit any project you create, you have full

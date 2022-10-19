@@ -34,25 +34,27 @@ export default function Home() {
   };
   return (
     <div>
-      <nav>
-        <div className="icon">
-          <Image src="/favicon.png" width={50} height={50} />
-        </div>
-        <div className="links">
-          <div onClick={handleClick}>
-            <a>Overview</a>
+      <full>
+        <nav>
+          <div className="icon">
+            <Image src="/favicon.png" width={50} height={50} />
           </div>
-          <div onClick={handleClick2}>
-            <a>Tracks</a>
+          <div className="links">
+            <div onClick={handleClick}>
+              <a>Overview</a>
+            </div>
+            <div onClick={handleClick2}>
+              <a>Tracks</a>
+            </div>
+            <div onClick={handleClick3}>
+              <a>FAQs</a>
+            </div>
+            <div onClick={handleClick4}>
+              <a>Schedule</a>
+            </div>
           </div>
-          <div onClick={handleClick3}>
-            <a>FAQs</a>
-          </div>
-          <div onClick={handleClick4}>
-            <a>Schedule</a>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </full>
       <Head>
         <title>LEC Hacks</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
