@@ -71,7 +71,7 @@ export default function Home() {
       <div ref={ref4}></div>
       <Schedule />
       <div ref={ref5}></div>
-      <Sponsers />
+      {/* <Sponsers /> */}
       <Footer />
     </div>
   );

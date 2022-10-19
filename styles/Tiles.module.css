@@ -1,13 +1,13 @@
 .full {
   background-color: #1c49a6;
   padding: 16px;
-  min-height: 100vh;
+  min-height: 80vh;
   color: white;
   transition: 1s;
 }
 
 .margin {
-  margin-top: 32vh;
+  margin-top: 16vh;
 }
 
 .container {

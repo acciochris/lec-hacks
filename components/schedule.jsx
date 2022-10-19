@@ -10,7 +10,7 @@ const Schedule = () => {
           <br />
           <div className={styles.calendar}>
             <div className={styles.day}>
-              <h3>Day 1 - Nov 18th</h3>
+              <h3>Nov 18th</h3>
               <br />
               <p>9:00PM - Opening Ceremony</p>
               <br />
@@ -19,7 +19,7 @@ const Schedule = () => {
               <p>11:00PM - Hacking Begins</p>
             </div>
             <div className={styles.day}>
-              <h3>Day 12 - Nov 19th</h3>
+              <h3>Nov 19th</h3>
               <br />
               <p>10:00AM - Workshop #1</p>
               <br />
@@ -38,7 +38,7 @@ const Schedule = () => {
               <p>9:00PM - Hacking</p>
             </div>
             <div className={styles.day}>
-              <h3>Day 13 - Nov 20th</h3>
+              <h3>Nov 20th</h3>
               <br />
               <p>8:00AM - Final Hour Reminder</p>
               <br />

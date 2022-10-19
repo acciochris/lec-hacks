@@ -23,6 +23,10 @@ const overView = () => {
         </p>
         <br />
         <p>
+          <x>When:</x> Friday 11/19 to Sunday 11/21(Invite Only)
+        </p>
+        <br />
+        <p>
           <x>Theme:</x> Wellness
         </p>
         <br />

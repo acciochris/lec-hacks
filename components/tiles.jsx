@@ -6,7 +6,7 @@ const CategoryTile = () => {
     <div className={styles.full}>
       <div className={styles.margin}>
         <div className={styles.center}>
-          <h2>Competetive Tracks</h2>
+          <h2>Competitive Tracks</h2>
         </div>
         <br />
         <br />
@@ -20,7 +20,7 @@ const CategoryTile = () => {
                 learning or artificial intelligence component or application in
                 the final product. Be prepared to explain your machine learning
                 components and how you implemented the to our judges in your
-                demo video
+                demo video.
               </p>
             </div>
             <div className={styles.box}>
