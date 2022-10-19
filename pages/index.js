@@ -37,7 +37,7 @@ export default function Home() {
       <full>
         <nav>
           <div className="icon">
-            <Image src="/favicon.png" width={50} height={50} />
+            <Image src="/favicon.png" width={50} height={50} alt="logo" />
           </div>
           <div className="links">
             <div onClick={handleClick}>
