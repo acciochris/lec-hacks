@@ -6,6 +6,8 @@ const Schedule = () => {
       <div className={styles.container}>
         <div className={styles.center}>
           <h2>Schedule</h2>
+          <br />
+          <br />
           <div className={styles.calendar}>
             <div className={styles.day}>
               <h3>Day 1 - Nov 18th</h3>

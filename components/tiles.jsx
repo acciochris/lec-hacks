@@ -8,6 +8,8 @@ const CategoryTile = () => {
         <div className={styles.center}>
           <h2>Competetive Tracks</h2>
         </div>
+        <br />
+        <br />
         <div className={styles.container}>
           <div className={styles.grid}>
             <div className={styles.box}>

@@ -9,6 +9,7 @@ const overView = () => {
           <h2>Event Overview</h2>
         </div>
         <br />
+        <br />
         <p>
           <x>Mission Statement:</x> LEC Hacks is a virtual hackathon for
           high-school students hosted by Lynbrook Engineering Club of LHS.

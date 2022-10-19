@@ -40,6 +40,7 @@ const Faqs = () => {
         <div className={styles.center}>
           <h2>FAQs</h2>
         </div>
+        <br />
         <Collapsible
           question="Do we need prior coding experience?"
           response="No! This event is open to all students, from experienced to complete rookie. The main objective is to learn"
