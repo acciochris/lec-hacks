@@ -1,6 +1,6 @@
 .full {
   background-color: #1c49a6;
-  min-height: 12.5vh;
+  min-height: 30vh;
 }
 
 .footer {
@@ -10,8 +10,32 @@
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  overflow: none;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+}
+
+.oneOfOne {
+  padding-top: 50px;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.oneOfTwo {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  overflow: none;
 }
 
 .rowIcon {
@@ -21,8 +45,7 @@
 }
 
 .icon {
-  margin-top: 5px;
-  height: 32px;
+  height: 35px;
 }
 
 .text {
@@ -37,4 +60,18 @@
 
 .footerText {
   font-size: 7px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+.smallText {
+  color: white;
+  font-size: 10px;
 }
