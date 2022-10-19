@@ -1,7 +1,7 @@
 .HeaderContainer {
   display: flex;
   background-color: #1c49a6;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   position: relative;
   background-image: url("../components/bg.jpg");
@@ -12,7 +12,7 @@
 
 .head {
   margin-top: 50%;
-  color: black;
+  color: #1c49a6;
   font-size: 150px;
   font-weight: 50;
 }
@@ -27,5 +27,5 @@
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: black;
+  color: #f3cd46;
 }

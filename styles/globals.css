@@ -32,3 +32,51 @@ p {
 h1 {
   font-family: "Bebas Neue";
 }
+
+.full {
+  background-color: aqua;
+}
+
+nav {
+  display: flex;
+  padding: 8px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 8vh;
+  background-color: #1c49a6;
+  position: sticky;
+  color: white;
+}
+nav a {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 48px;
+  margin-bottom: 50;
+  transition: 0.5s;
+}
+nav a:hover {
+  background-color: #f3cd46;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+nav .logo {
+  margin-right: auto;
+  margin-left: 48px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.links {
+  margin-left: 710px;
+  display: flex;
+  flex-direction: row;
+}
