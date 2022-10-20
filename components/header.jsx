@@ -8,7 +8,10 @@ const Header = ({ func }) => {
       <div className={styles.center}>
         <h1 className={styles.head}>LEC Hacks</h1>
         <div className={styles.btn}>
-          <a className={styles.subheading} href="https://www.google.com">
+          <a
+            className={styles.subheading}
+            href="https://cna012oesvb.typeform.com/to/TAHtCqQo"
+          >
             Sign Up Here
           </a>
         </div>
