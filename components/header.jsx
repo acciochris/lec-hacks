@@ -7,9 +7,11 @@ const Header = ({ func }) => {
     <div className={styles.HeaderContainer}>
       <div className={styles.center}>
         <h1 className={styles.head}>LEC Hacks</h1>
-        <a className={styles.subheading} href="https://www.google.com">
-          Sign Up Here
-        </a>
+        <div className={styles.btn}>
+          <a className={styles.subheading} href="https://www.google.com">
+            Sign Up Here
+          </a>
+        </div>
         {/* <button> */}
         {/* </button> */}
       </div>
