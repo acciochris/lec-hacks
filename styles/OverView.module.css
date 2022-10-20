@@ -1,8 +1,9 @@
 .full {
-  background-color: #f3cd46;
+  background-color: #d7766c;
   min-height: 54vh;
   padding: 96px;
   color: black;
+  color: white;
 }
 
 .container {

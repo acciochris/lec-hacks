@@ -1,5 +1,5 @@
 .full {
-  background-color: #f3cd46;
+  background-color: #d7766c;
   min-height: 75vh;
   padding: 40px;
   color: white;
@@ -31,7 +31,7 @@
   transition: 0.5s;
 }
 .collapsible .header {
-  background-color: #1c49a6;
+  background-color: #90cc89;
   padding: 20px;
   cursor: pointer;
 

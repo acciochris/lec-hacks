@@ -29,13 +29,9 @@ const Schedule = () => {
               <br />
               <p>4:00PM - Workshop #3</p>
               <br />
-              <p>5:00PM - Hacking</p>
-              <br />
               <p>6:00PM - Workshop #4</p>
               <br />
               <p>7:00PM - Workshop #5</p>
-              <br />
-              <p>9:00PM - Hacking</p>
             </div>
             <div className={styles.day}>
               <h3>Nov 20th</h3>

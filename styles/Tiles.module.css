@@ -1,5 +1,5 @@
 .full {
-  background-color: #1c49a6;
+  background-color: #90cc89;
   padding: 16px;
   min-height: 80vh;
   color: white;
@@ -39,7 +39,7 @@
 .box {
   width: 350px;
   height: 24px;
-  background-color: #f3cd46;
+  background-color: #d7766c;
   margin: 8px;
   margin-left: 16px;
   padding: 16px;
@@ -77,7 +77,7 @@
   left: 0;
   right: 0;
   padding: 20px;
-  background-color: #f3cd46;
+  background-color: #d7766c;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
 }
 

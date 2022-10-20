@@ -1,5 +1,5 @@
 .full {
-  background-color: #f3cd46;
+  background-color: #d7766c;
   min-height: 60vh;
   padding: 40px;
   color: black;
@@ -27,7 +27,7 @@
   width: 33.33%;
   float: left;
   height: 300px;
-  background-color: #1c49a6;
+  background-color: #90cc89;
   margin: 12vh;
   border-radius: 12px;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);

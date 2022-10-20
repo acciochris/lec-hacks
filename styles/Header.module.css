@@ -1,6 +1,6 @@
 .HeaderContainer {
   display: flex;
-  background-color: #1c49a6;
+  background-color: #90cc89;
   height: 90vh;
   justify-content: center;
   position: relative;
@@ -12,7 +12,7 @@
 
 .head {
   margin-top: 50%;
-  color: #1c49a6;
+  color: #90cc89;
   font-size: 150px;
   font-weight: 50;
 }
@@ -27,5 +27,5 @@
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #f3cd46;
+  color: #d7766c;
 }

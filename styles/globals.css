@@ -46,7 +46,7 @@ nav {
   flex-direction: row;
   align-items: center;
   height: 8vh;
-  background-color: #1c49a6;
+  background-color: #90cc89;
   position: sticky;
   color: white;
   margin-bottom: auto;
@@ -59,7 +59,7 @@ nav a {
   cursor: pointer;
 }
 nav a:hover {
-  background-color: #f3cd46;
+  background-color: #d7766c;
   padding: 8px;
   border-radius: 20px;
 }
