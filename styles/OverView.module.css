@@ -6,12 +6,8 @@
   color: white;
 }
 
-.container {
-  /* margin-top: 48px; */
-  margin-top: 11vh;
-}
-
 .center {
   margin-top: 8px;
   text-align: center;
+  padding: 8px;
 }
