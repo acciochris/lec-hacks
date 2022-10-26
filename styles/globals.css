@@ -94,7 +94,7 @@ nav .logo {
   }
 }
 
-@media screen and (max-width: 750px) and (min-width: 0px) {
+@media screen and (max-width: 750px) and (min-width: 1px) {
   .links {
     margin-left: 10%;
     display: flex;
