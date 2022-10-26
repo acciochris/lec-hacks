@@ -56,9 +56,8 @@ nav a {
   font-family: "Roboto Condensed", sans-serif;
   margin-left: 48px;
   margin-bottom: 50;
-  transition: 0.5s;
+  transition: 0.4s;
   cursor: pointer;
-  transition: 0.1s;
 }
 nav a:hover {
   background-color: #90cc89;
