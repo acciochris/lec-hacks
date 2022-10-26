@@ -75,10 +75,11 @@ nav .logo {
   background-color: white;
   padding: 8px;
   border-radius: 50%;
+  position: absolute;
 }
 
 .links {
-  margin-left: 710px;
+  margin-left: 120vh;
   display: flex;
   flex-direction: row;
 }
