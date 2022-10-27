@@ -58,6 +58,8 @@ nav a {
   margin-bottom: 50;
   transition: 0.4s;
   cursor: pointer;
+  font-size: large;
+  font-weight: bold;
 }
 nav a:hover {
   background-color: #90cc89;
