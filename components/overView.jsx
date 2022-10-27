@@ -23,7 +23,7 @@ const overView = () => {
         </p>
         <br />
         <p>
-          <x>When:</x> Friday 11/18 to Sunday 11/20
+          <x>When:</x> Friday 11/18 @ 9PM to Sunday 11/20 @ 9AM
         </p>
         <br />
         <p>
