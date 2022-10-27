@@ -33,8 +33,8 @@ const footer = () => {
       <div className={styles.row}>
         <div className={styles.oneOfOne}>
           <p className={styles.smallText}>
-            Webpage created by Veerrohit Veeravadivel and Aravindkrishna
-            Arivudainambi
+            Webpage created by Aravindkrishna Arivudainambi and with some help
+            from Veerrohit Veeravadivel
           </p>
         </div>
       </div>
