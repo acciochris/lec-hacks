@@ -15,7 +15,7 @@ const overView = () => {
           high-school students hosted by Lynbrook Engineering Club of LHS.
           Through learning and competing about a variety of topics we hope to
           foster an interest in the field of engineering and encourage people to
-          explore the various branches of engineering
+          explore the various branches of engineering.
         </p>
         <br />
         <p>
@@ -23,7 +23,7 @@ const overView = () => {
         </p>
         <br />
         <p>
-          <x>When:</x> Friday 11/19 to Sunday 11/21(Invite Only)
+          <x>When:</x> Friday 11/18 to Sunday 11/20
         </p>
         <br />
         <p>
