@@ -43,7 +43,7 @@ const Faqs = () => {
         <br />
         <Collapsible
           question="Do we need prior coding experience?"
-          response="No! This event is open to all students, from experienced to complete rookie. The main objective is to learn"
+          response="No! This event is open to all students, from experienced to complete rookie. The main objective is to learn."
         />
         <Collapsible
           question="Will we be able to learn anything from this event?"
