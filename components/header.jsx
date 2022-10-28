@@ -10,7 +10,7 @@ const Header = ({ func }) => {
         <div className={styles.btn}>
           <a
             className={styles.subheading}
-            href="https://cna012oesvb.typeform.com/to/TAHtCqQo"
+            href="https://forms.gle/R5w8apgR7PnjtzPa9"
           >
             Sign Up Here
           </a>
