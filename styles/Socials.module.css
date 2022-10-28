@@ -1,6 +1,6 @@
 .full {
   background-color: #d7766c;
-  min-height: 20vh;
+  min-height: 24vh;
 }
 
 .footer {
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 800px) {
   .link {
-    font-size: 16px;
+    font-size: 3.2vw;
   }
 }
 

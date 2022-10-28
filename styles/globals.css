@@ -102,4 +102,7 @@ nav .logo {
     display: flex;
     flex-direction: row;
   }
+  nav a {
+    font-size: 3.2vw;
+  }
 }
