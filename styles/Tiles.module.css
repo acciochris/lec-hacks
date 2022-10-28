@@ -35,7 +35,16 @@
   row-gap: 24px;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  transition: 0.3s;
 }
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    transition: 0.3s;
+  }
+}
+
 .box {
   width: 350px;
   height: 24px;
