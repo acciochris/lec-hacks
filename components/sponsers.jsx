@@ -15,8 +15,7 @@ const Sponsers = () => {
               <div className="sponser">
                 <Image
                   src="/desmos.png"
-                  width={300}
-                  height={300}
+                  layout="fill"
                   alt="logo"
                   className="sponserImage"
                 />
@@ -26,8 +25,7 @@ const Sponsers = () => {
               <div className="sponser">
                 <Image
                   src="/taskade.png"
-                  width={300}
-                  height={300}
+                  layout="fill"
                   alt="logo"
                   className="sponserImage"
                 />
