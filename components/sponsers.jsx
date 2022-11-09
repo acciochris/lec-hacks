@@ -14,7 +14,7 @@ const Sponsers = () => {
             <div className={styles.SponserBox}>
               <div className="sponser">
                 <Image
-                  src="/desmos.png"
+                  src="/Untitled_Artwork 3.jpg"
                   layout="fill"
                   alt="logo"
                   className="sponserImage"
