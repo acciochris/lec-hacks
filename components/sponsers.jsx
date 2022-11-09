@@ -19,18 +19,21 @@ const Sponsers = () => {
                   alt="logo"
                   className="sponserImage"
                 />
+                <div className="middle">
+                  <h1 className="text">Desmos</h1>
+                </div>
               </div>
             </div>
             <div className={styles.SponserBox}>
               <div className="sponser">
                 <Image
-                  src="/taskade.png"
+                  src="/IMG_0777.jpg"
                   layout="fill"
                   alt="logo"
                   className="sponserImage"
                 />
-                <div class="middle">
-                  <div className="text2">John Doe</div>
+                <div className="middle">
+                  <h1 className="text">Taskade</h1>
                 </div>
               </div>
             </div>
@@ -42,6 +45,9 @@ const Sponsers = () => {
                   alt="logo"
                   className="sponserImage"
                 />
+                <div className="middle">
+                  <h1 className="text">echo3D</h1>
+                </div>
               </div>
             </div>
           </div>

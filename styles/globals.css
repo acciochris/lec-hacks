@@ -95,8 +95,8 @@ nav .logo {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
 }
 .sponserImage {
@@ -114,20 +114,39 @@ nav .logo {
   z-index: 100;
 }
 
-.opacity {
-  background-color: aqua;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.opacity:hover {
-  background-color: blue;
+.wrapper {
   opacity: 1;
 }
 
-.text:hover {
+.middle {
+  transition: 0.5s ease;
   opacity: 0;
-  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sponser:hover .sponserImage {
+  opacity: 0.3;
+}
+
+.sponser:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media screen and (max-width: 1350px) and (min-width: 750px) {
