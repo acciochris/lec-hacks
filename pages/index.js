@@ -37,7 +37,13 @@ export default function Home() {
       <full>
         <nav>
           <div className="icon">
-            <Image src="/favicon.png" width={50} height={50} alt="logo" />
+            <Image
+              src="/favicon.png"
+              width={50}
+              height={50}
+              alt="logo"
+              className="img"
+            />
           </div>
           <div className="links">
             <div onClick={handleClick}>
@@ -70,8 +76,8 @@ export default function Home() {
       <Faqs />
       <div ref={ref4}></div>
       <Schedule />
+      <Sponsers />
       <div ref={ref5}></div>
-      {/* <Sponsers /> */}
       <Footer />
     </div>
   );

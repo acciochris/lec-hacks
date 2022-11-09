@@ -75,10 +75,13 @@ nav .logo {
   margin-left: 10px;
   height: 50px;
   width: 50px;
-  background-color: white;
   padding: 8px;
   border-radius: 50%;
   position: absolute;
+}
+
+.img {
+  border-radius: 100%;
 }
 
 .links {
@@ -86,6 +89,45 @@ nav .logo {
   display: flex;
   flex-direction: row;
   transition: 0.1s;
+}
+
+.sponser {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vw;
+  box-shadow: -2px 20px 10px rgba(0, 0, 0, 0.225);
+}
+.sponserImage {
+  border-radius: 10px;
+  background-color: blue;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.text2 {
+  font-size: 100px;
+
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.opacity {
+  background-color: aqua;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.opacity:hover {
+  background-color: blue;
+  opacity: 1;
+}
+
+.text:hover {
+  opacity: 0;
+  z-index: 100;
 }
 
 @media screen and (max-width: 1350px) and (min-width: 750px) {
