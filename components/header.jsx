@@ -7,7 +7,7 @@ const Header = ({ func }) => {
     <div className={styles.HeaderContainer}>
       <div className={styles.center}>
         <h1 className={styles.head}>LEC Hacks</h1>
-        <p className={styles.head2}>$5000 in prizes!</p>
+        <p className={styles.head2}>$5000+ in prizes!</p>
         {/* <h2 className={styles.head}>More than $5000 in prizes!</h2> */}
         <div className={styles.btn}>
           <a
