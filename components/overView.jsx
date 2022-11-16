@@ -19,7 +19,7 @@ const overView = () => {
         </p>
         <br />
         <p>
-          <x>Location:</x> Online via Discord(Invite Only)
+          <x>Location:</x> Online via Discord (<a href="https://discord.gg/yEabP55GyJ">Join Here!</a>)
         </p>
         <br />
         <p>
