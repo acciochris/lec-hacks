@@ -1,10 +1,10 @@
 const Overview = () => {
   return (
-    <div className="">
-        <h2 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">Event Overview</h2>
-        <div className="text-left text-gray-400">
+    <div className="bg-neutral-800 w-full p-12">
+        <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal text-gray-100 sm:text-5xl">Event Overview</h2>
+        <div className="text-left mt-4 text-gray-300">
         <p>
-          <span className="font-display font-bold text-white">Mission Statement:</span> LEC Hacks is a virtual hackathon for
+          <span className="font-display font-bold text-gray-100">Mission Statement:</span> LEC Hacks is a virtual hackathon for
           high-school students worldwide hosted by Lynbrook Engineering Club.
           Through learning and competing about a variety of topics we hope to
           foster an interest in the field of engineering and encourage people to
@@ -12,19 +12,19 @@ const Overview = () => {
         </p>
         <br />
         <p>
-          <span>Location:</span> Online via Discord (<a href="https://discord.gg/yEabP55GyJ">Join Here!</a>)
+          <span className="font-display font-bold text-gray-100">Location:</span> Online via Discord (<a href="https://discord.gg/yEabP55GyJ">Join Here!</a>)
         </p>
         <br />
         <p>
-          <span>When:</span> Friday 11/18 @ 9PM PST to Sunday 11/20 @ 9AM PST
+          <span className="font-display font-bold text-gray-100">When:</span> Friday 11/18 @ 9PM PST to Sunday 11/20 @ 9AM PST
         </p>
         <br />
         <p>
-          <span>Theme:</span> Wellness
+          <span className="font-display font-bold text-gray-100">Theme:</span> Wellness
         </p>
         <br />
         <p>
-          <span>Competitor Goal:</span> Complete a project in line with this years
+          <span className="font-display font-bold text-gray-100">Competitor Goal:</span> Complete a project in line with this years
           theme and following one of our 5 tracks. The main objective is to push
           yourselves to create a new and unique project while learning new
           skills.

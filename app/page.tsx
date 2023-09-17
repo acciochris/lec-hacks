@@ -6,14 +6,17 @@ import Schedule from "../components/Schedule";
 
 export default function HomePage() {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
-      <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        <Intro />
+    <div className="flex flex-col items-center justify-center min-h-screen w-screen">
+      <div className="flex flex-col h-screen w-full">
+        <Header />
+        <div className="flex flex-1 w-full flex-col items-center justify-center text-center mt-10 z-50 bg-transparent background-gradient">
+          <Intro />
+        </div>
+      </div>
+      <div className="flex flex-1 w-full flex-col items-center justify-center text-center">
         <Overview />
-        <Faqs />
         <Schedule />
-      </main>
+      </div>
       <Footer />
     </div>
   );
