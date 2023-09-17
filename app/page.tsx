@@ -1,8 +1,10 @@
+import Faqs from "../components/Faqs";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Overview from "../components/Overview";
 import Schedule from "../components/Schedule";
+import Tracks from "../components/Tracks";
 
 export default function HomePage() {
   return (
@@ -15,6 +17,8 @@ export default function HomePage() {
       </div>
       <div className="flex flex-1 w-full flex-col items-center justify-center text-center">
         <Overview />
+        <Tracks />
+        <Faqs />
         <Schedule />
       </div>
       <Footer />
