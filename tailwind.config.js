@@ -13,5 +13,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("@headlessui/tailwindcss"), require("daisyui")],
+  plugins: [
+    // require("@tailwindcss/forms"), // incompatible with daisyui accordion
+    // require("@headlessui/tailwindcss"),
+    require("daisyui"),
+  ],
 };
