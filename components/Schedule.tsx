@@ -4,7 +4,7 @@ const Schedule = () => {
       <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-200">
         Schedule
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 place-content-evenly text-gray-300">
+      <div className="grid grid-cols-1 md:grid-cols-3 text-gray-300 justify-items-stretch">
         <div className="card bg-zinc-800 m-6">
           <div className="card-body items-center text-center">
             <h3 className="card-title text-2xl text-gray-100">Nov 18th</h3>

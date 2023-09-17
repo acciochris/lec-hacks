@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Overview from "../components/Overview";
 import Schedule from "../components/Schedule";
+import Sponsors from "../components/Sponsors";
 import Tracks from "../components/Tracks";
 
 export default function HomePage() {
@@ -18,6 +19,7 @@ export default function HomePage() {
         <Tracks />
         <Faqs />
         <Schedule />
+        <Sponsors />
       </div>
       <Footer />
     </div>
