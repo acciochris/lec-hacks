@@ -1,18 +1,18 @@
 const Faq = ({ question, answer }: { question: string, answer: string }) => (
-  <div className="collapse collapse-plus bg-base-200">
+  <div className="collapse collapse-plus bg-zinc-900">
     <input type="radio" name="faqs"/>
-    <div className="collapse-title text-xl font-medium">
+    <div className="collapse-title text-xl font-medium text-gray-300">
       {question}
     </div>
-    <div className="collapse-content">
+    <div className="collapse-content text-gray-400">
       <p>{answer}</p>
     </div>
   </div>
 );
 
 const Faqs = () => (
-  <div className="bg-neutral-800 w-full p-12">
-    <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal text-gray-100 sm:text-5xl">
+  <div className="bg-zinc-800 w-full py-12 px-24" id="faqs">
+    <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-100">
       FAQs
     </h2>
     <Faq

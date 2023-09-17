@@ -1,7 +1,7 @@
 const Overview = () => {
   return (
-    <div className="bg-neutral-800 w-full p-12">
-        <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal text-gray-100 sm:text-5xl">Event Overview</h2>
+    <div className="bg-zinc-800 w-full p-12" id="overview">
+        <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-100">Event Overview</h2>
         <div className="text-left mt-4 text-gray-300">
         <p>
           <span className="font-display font-bold text-gray-100">Mission Statement:</span> LEC Hacks is a virtual hackathon for

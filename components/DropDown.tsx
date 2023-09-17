@@ -22,7 +22,7 @@ export default function DropDown({ theme, setTheme, themes }: DropDownProps) {
   return (
     <Menu as="div" className="relative block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-between items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black">
+        <Menu.Button className="inline-flex w-full justify-between items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-700 shadow-sm hover:bg-zinc-50 focus:outline-none focus:ring-2 focus:ring-black">
           {theme}
           <ChevronUpIcon
             className="-mr-1 ml-2 h-5 w-5 ui-open:hidden"
@@ -55,8 +55,8 @@ export default function DropDown({ theme, setTheme, themes }: DropDownProps) {
                   <button
                     onClick={() => setTheme(themeItem)}
                     className={classNames(
-                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                      themeItem === theme ? "bg-gray-200" : "",
+                      active ? "bg-zinc-100 text-gray-900" : "text-gray-700",
+                      themeItem === theme ? "bg-zinc-200" : "",
                       "px-4 py-2 text-sm w-full text-left flex items-center space-x-2 justify-between"
                     )}
                   >

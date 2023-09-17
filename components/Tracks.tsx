@@ -8,15 +8,15 @@ function Track({ title, content, fullspan }: { title: string, content: string, f
   const fullspanClassName = (fullspan || false) ? " col-span-full" : "";
   return (
     <div
-      className={`collapse bg-base-200 h-min my-6 w-4/5 md:w-2/3 ${collapsedClassName}` + fullspanClassName}
+      className={`collapse bg-zinc-800 h-min my-6 w-4/5 md:w-2/3 ${collapsedClassName}` + fullspanClassName}
       onMouseEnter={() => setCollapsed(false)}
       onMouseLeave={() => setCollapsed(true)}
     >
       <input type="checkbox" />
-      <div className="collapse-title text-xl font-medium pl-12">
+      <div className="collapse-title text-xl font-medium pl-12 text-gray-100">
         {title}
       </div>
-      <div className="collapse-content">
+      <div className="collapse-content text-gray-300">
         <p>{content}</p>
       </div>
     </div>
@@ -24,8 +24,8 @@ function Track({ title, content, fullspan }: { title: string, content: string, f
 }
 
 const Tracks = () => (
-  <div className="w-full p-12 justify-items-center">
-    <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal text-gray-100 sm:text-5xl">
+  <div className="w-full p-12 justify-items-center" id="tracks">
+    <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-200">
       Competitive Tracks
     </h2>
     <div className="grid md:grid-cols-2 grid-cols-1 justify-items-center">

@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const Intro = () => (
-  <div className="flex flex-col items-center justify-center">
-    <h1 className="mx-auto max-w-4xl font-display text-6xl font-bold tracking-normal text-gray-300 sm:text-7xl">
+  <div className="flex flex-col items-center justify-center h-full">
+    <h1 className="mx-auto max-w-4xl font-display text-6xl font-bold tracking-normal text-gray-200 sm:text-7xl">
       LEC Hacks
     </h1>
     <h2 className="border border-gray-500 rounded-lg py-2 px-4 text-gray-400 text-xl sm:text-2xl my-5 transition duration-300 ease-in-out">
