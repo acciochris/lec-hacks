@@ -5,7 +5,7 @@
 @media (min-width: 800px) {
   .background-gradient::before {
     background: radial-gradient(
-      25% 50% at 50% 50%,
+      20% 40% at 50% 45%,
       rgba(71, 127, 247, 0.3) 0%,
       rgba(37, 38, 44, 0) 100%
     );

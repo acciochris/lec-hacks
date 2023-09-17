@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="navbar bg-zinc-900 text-gray-200 sticky top-0 z-50">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">LEC Hacks</a>
+        <Link className="btn btn-ghost normal-case text-xl" href="#">LEC Hacks</Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">

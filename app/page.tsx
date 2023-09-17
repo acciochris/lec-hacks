@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen w-screen">
       <Header />
-      <div className="w-full h-[70vh] items-center justify-center text-center mt-10 z-50 bg-transparent background-gradient">
+      <div className="w-full h-[70vh] items-center justify-center text-center mt-10 z-40 bg-transparent background-gradient">
         <Intro />
       </div>
       <div className="flex flex-1 w-full flex-col items-center justify-center text-center">

@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-900 smooth-scroll">
+      <body className="bg-zinc-900">
         {children}
         <Analytics />
       </body>
