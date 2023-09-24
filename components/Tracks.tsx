@@ -8,7 +8,7 @@ function Track({ title, content, fullspan }: { title: string, content: string, f
   const fullspanClassName = (fullspan || false) ? " col-span-full" : "";
   return (
     <div
-      className={`collapse bg-zinc-800 h-min my-6 w-4/5 md:w-2/3 ${collapsedClassName}` + fullspanClassName}
+      className={`collapse bg-zinc-800 h-min my-6 w-full md:w-2/3 ${collapsedClassName}` + fullspanClassName}
       onMouseEnter={() => setCollapsed(false)}
       onMouseLeave={() => setCollapsed(true)}
     >

@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+> Note:
+>
+> This is currently deployed on Github Pages and at a base url of https://acciochris.github.io/lec-hacks
+> To deploy to somewhere else, make sure to change `basePath` in `next.config.js` and remove the `/lec-hacks`
+> prefix from all links (if applicable).
+
 ## Getting Started
 
 First, run the development server:

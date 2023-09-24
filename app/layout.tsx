@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/favicon.png",
+    icon: "/lec-hacks/favicon.png",
   },
 };
 
