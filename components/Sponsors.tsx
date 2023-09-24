@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Sponsors = () => (
-  <div className="bg-zinc-800 w-full p-16">
+  <div className="bg-zinc-800 w-full p-12 md:p-16">
     <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-170">
       Sponsors
     </h2>
