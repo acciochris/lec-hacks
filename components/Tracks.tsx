@@ -24,7 +24,7 @@ function Track({ title, content, fullspan }: { title: string, content: string, f
 }
 
 const Tracks = () => (
-  <div className="w-full p-12 md:p-16 justify-items-center" id="tracks">
+  <div className="w-full p-8 md:p-16 justify-items-center" id="tracks">
     <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-200">
       Competitive Tracks
     </h2>

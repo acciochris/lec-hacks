@@ -11,7 +11,7 @@ const Faq = ({ question, answer }: { question: string, answer: string }) => (
 );
 
 const Faqs = () => (
-  <div className="bg-zinc-800 w-full py-12 px-12 md:py-16 md:px-24" id="faqs">
+  <div className="bg-zinc-800 w-full py-8 px-8 md:py-16 md:px-24" id="faqs">
     <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-100">
       FAQs
     </h2>

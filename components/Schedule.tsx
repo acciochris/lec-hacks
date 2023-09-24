@@ -1,6 +1,6 @@
 const Schedule = () => {
   return (
-    <div className="w-full p-12 md:p-16" id="schedule">
+    <div className="w-full p-8 md:p-16" id="schedule">
       <h2 className="mx-auto max-w-4xl mb-4 font-display text-4xl font-bold tracking-normal sm:text-5xl text-gray-200">
         Schedule
       </h2>
