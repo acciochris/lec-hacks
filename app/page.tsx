@@ -20,8 +20,9 @@ export default function HomePage() {
         <Faqs />
         <Schedule />
         <Sponsors />
+        <Footer />
       </div>
-      <Footer />
+
     </div>
   );
 }

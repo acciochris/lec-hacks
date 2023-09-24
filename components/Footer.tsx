@@ -1,53 +1,28 @@
 import Link from "next/link";
 
+
 export default function Footer() {
   return (
     <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3 border-gray-500 bg-zinc-800">
-      <div className="text-gray-500">
-        Powered by{" "}
-        <a
-          href="https://replicate.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
-        >
-          Replicate,{" "}
-        </a>
-        <a
-          href="https://www.bytescale.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
-        >
-          Bytescale,{" "}
-        </a>
-        and{" "}
-        <a
-          href="https://vercel.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
-        >
-          Vercel.
-        </a>
+      <div className="grid grid-cols-2 w-full text-gray-500 justify-items-center items-center justify-center text-center">
+        <div className="flex flex-col items-center">
+          <div>
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+          </div>
+          <div>lynbrookengineers@gmail.com</div>
+        </div>
+        <div className="flex flex-col items-center">
+          <div>
+          <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </div>
+          <div>@lynbrookengineering</div>
+        </div>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://github.com/acciochris/lec-hacks"
           className="group"
-          aria-label="TaxPal on Twitter"
-        >
-          <svg
-            aria-hidden="true"
-            className="h-6 w-6 fill-gray-500 group-hover:fill-gray-300"
-          >
-            <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0 0 22 5.92a8.19 8.19 0 0 1-2.357.646 4.118 4.118 0 0 0 1.804-2.27 8.224 8.224 0 0 1-2.605.996 4.107 4.107 0 0 0-6.993 3.743 11.65 11.65 0 0 1-8.457-4.287 4.106 4.106 0 0 0 1.27 5.477A4.073 4.073 0 0 1 2.8 9.713v.052a4.105 4.105 0 0 0 3.292 4.022 4.093 4.093 0 0 1-1.853.07 4.108 4.108 0 0 0 3.834 2.85A8.233 8.233 0 0 1 2 18.407a11.615 11.615 0 0 0 6.29 1.84" />
-          </svg>
-        </Link>
-        <Link
-          href="https://github.com/Nutlope/roomGPT"
-          className="group"
-          aria-label="TaxPal on GitHub"
+          target="blank"
         >
           <svg
             aria-hidden="true"
