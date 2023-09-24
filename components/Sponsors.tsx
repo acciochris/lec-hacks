@@ -6,9 +6,9 @@ const Sponsors = () => (
       Sponsors
     </h2>
     <div className="grid sm:grid-cols-3 grid-cols-1 justify-items-center mt-12">
-      <Image src="/image_3.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
-      <Image src="/IMG_0777.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
-      <Image src="/Untitled_Artwork 3.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
+      <Image src="/lec-hacks/image_3.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
+      <Image src="/lec-hacks/IMG_0777.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
+      <Image src="/lec-hacks/Untitled_Artwork 3.jpg" width={170} height={170} alt="logo" className="mask mask-squircle my-6" />
     </div>
   </div>
 );
